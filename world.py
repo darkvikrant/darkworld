@@ -395,7 +395,7 @@ def pilih():
                 jalan('\033[1;96mUser: dark')
                 jalan('\033[1;96mpass: vikrant')
                 jalan('\033[1;92m👆Copy Command & send 2 groups👆')
-                jalan('\033[1;91m thanxx for using commands
+                jalan('\033[1;91m thanxx for using commands')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
